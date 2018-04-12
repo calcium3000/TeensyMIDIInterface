@@ -1,0 +1,58 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C
+D Capacitor, non-polar
+K capacitor
+$ENDCMP
+#
+$CMP CONN_1x14
+D Connector, single row, 1x14
+K connector 1x14
+$ENDCMP
+#
+$CMP CONN_1x2
+D Connector, single row, 1x2
+K connector 1x2
+$ENDCMP
+#
+$CMP CONN_1x5
+D Connector, single row, 1x5
+K connector 1x5
+$ENDCMP
+#
+$CMP DIN-5_MIDI
+D DIN connector, 5-pin, MIDI
+K connector din 5 midi
+$ENDCMP
+#
+$CMP D_Schottky
+D Diode, Schottky
+K diode schottky
+$ENDCMP
+#
+$CMP INVERTER_HEX_SCHMITT
+D Inverter, hex, Scmitt trigger
+K inverter schmitt
+$ENDCMP
+#
+$CMP J_Conn_1x2
+D Connector, single row, 1x2
+K connector 1x2
+$ENDCMP
+#
+$CMP LDO_4-Pin
+D Voltage regulator, low drop-out, 4-pin
+K voltage regulator ldo
+$ENDCMP
+#
+$CMP R
+D Resistor
+K resistor
+$ENDCMP
+#
+$CMP TLP2361
+D Optocoupler, logic output, Schmitt trigger
+K optocoupler logic schmitt
+$ENDCMP
+#
+#End Doc Library
