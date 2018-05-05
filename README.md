@@ -17,4 +17,7 @@ In addition, all pins on the perimeter of the Teensy are broken out for easier a
 All source files are released under the [TAPR Open Hardware License](http://tapr.org/ohl).  See `LICENSE.txt` for a copy of the license.
 
 ## Software
-TODO!
+Provided are two test programs for MIDI input and MIDI output configurations.  Both are adopted from [ PRJC's MIDI Library](https://www.pjrc.com/teensy/td_libs_MIDI.html) page.  More specific examples to come!
+
+### License
+All source files are released under the [GNU General Public License](https://www.gnu.org/licenses/gpl.html).  See `LICENSE.txt` for a copy of the license.
