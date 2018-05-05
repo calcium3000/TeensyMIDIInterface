@@ -637,11 +637,9 @@ $EndComp
 Wire Wire Line
 	3150 3000 3050 3000
 Wire Wire Line
-	3050 3000 3050 3050
+	3050 3050 3050 3000
 Wire Wire Line
-	3050 3050 2300 3050
-Wire Wire Line
-	2300 3050 1800 3050
+	1800 3050 3050 3050
 Wire Wire Line
 	2300 3050 2300 3000
 Wire Wire Line
@@ -649,9 +647,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 2700 3050 2650
 Wire Wire Line
-	2300 2500 2300 2650
-Wire Wire Line
-	2300 2650 2300 2700
+	2300 2500 2300 2700
 Connection ~ 2300 2650
 Wire Wire Line
 	3500 3250 3500 3150
@@ -743,15 +739,11 @@ Wire Wire Line
 Wire Wire Line
 	9500 1700 9500 1800
 Wire Wire Line
-	9050 4550 9050 4650
-Wire Wire Line
-	9050 4650 9050 4750
+	9050 4550 9050 4750
 Wire Wire Line
 	9200 4550 9200 4650
 Wire Wire Line
-	9050 4650 9200 4650
-Wire Wire Line
-	9200 4650 9450 4650
+	9050 4650 9450 4650
 Connection ~ 9050 4650
 Wire Wire Line
 	9450 4650 9450 4550
@@ -901,11 +893,7 @@ Wire Wire Line
 Wire Wire Line
 	11050 7800 10950 7800
 Wire Wire Line
-	10950 7700 11450 7700
-Wire Wire Line
-	11450 7700 12250 7700
-Wire Wire Line
-	12250 7700 12450 7700
+	10950 7700 12450 7700
 Wire Wire Line
 	11450 7900 11450 7700
 Connection ~ 11450 7700
@@ -934,9 +922,7 @@ F 3 "" H 12750 8300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12750 8100 12750 8200
-Wire Wire Line
-	12750 8200 12750 8300
+	12750 8100 12750 8300
 Wire Wire Line
 	12950 8100 12950 8200
 Wire Wire Line
@@ -950,7 +936,7 @@ F 0 "U1" H 3550 3350 50  0000 L CNN
 F 1 "Optoisolator_logic" H 3550 3250 50  0000 L CNN
 F 2 "TMIDI:U_SO-5_Width6.3mm_Pitch1.27mm" H 3250 2650 50  0001 L CIN
 F 3 "" H 3430 2825 50  0000 L CNN
-F 4 "TLP2361" H 3550 3150 50  0000 L CNN "Part number"
+F 4 "TLP105" H 3550 3150 50  0000 L CNN "Part number"
 	1    3400 2850
 	1    0    0    -1  
 $EndComp
@@ -1057,9 +1043,7 @@ F 3 "" H 13450 6800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13450 6800 13450 7100
-Wire Wire Line
-	13450 7100 13450 7700
+	13450 6800 13450 7700
 Wire Wire Line
 	13450 7700 13250 7700
 $Comp
